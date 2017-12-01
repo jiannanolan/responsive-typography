@@ -52,6 +52,14 @@ body {
   margin: 0;
 }
 
+article p {
+  margin-top: 1.5rem;
+}
+
+article ol {
+  padding-left: 0;
+}
+
 @media only screen and (min-width: 20em) {
   html {
     font-family: "Crimson Text", serif;
@@ -181,7 +189,6 @@ body {
 
   html {
     font-size: 130%;
-    line-height: 1.5;
     padding: 1.5rem;
   }
 
