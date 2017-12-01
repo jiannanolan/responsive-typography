@@ -48,22 +48,28 @@ blockquote {
   color: #999;
 }
 
+body {
+  margin: 0;
+}
 
 @media only screen and (min-width: 20em) {
   html {
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-size: 100%;
     line-height: 1.3;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding: 1rem;
   }
 
   blockquote {
     margin: 0 auto;
   }
 
-  article h1 {
+  h1 {
+    margin-top: .3rem;
     margin-bottom: 0;
+  }
+
+  article p {
     margin-top: 1.3rem;
   }
 
@@ -72,27 +78,30 @@ blockquote {
     margin-bottom: 1.3rem;
   }
 
-  article p {
-    margin-top: 1.3rem;
+  article ol {
+    padding-left: 0;
   }
 }
 
 @media only screen and (min-width: 25em) {
 
   html {
-    font-family: 'Crimson Text', serif;
+    font-family: "Crimson Text", serif;
     font-size: 100%;
     line-height: 1.3;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding: 1rem;
   }
 
   blockquote {
     margin: 0 auto;
   }
 
-  article h1 {
+  h1 {
+    margin-top: .3rem;
     margin-bottom: 0;
+  }
+
+  article p {
     margin-top: 1.3rem;
   }
 
@@ -101,8 +110,8 @@ blockquote {
     margin-bottom: 1.3rem;
   }
 
-  article p {
-    margin-top: 1.3rem;
+  article ol {
+    padding-left: 0;
   }
 }
 
@@ -111,13 +120,20 @@ blockquote {
   html {
     font-size: 110%;
     line-height: 1.4;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding: 1rem;
   }
 
-  article h1 {
+  h1 {
+    margin-top: 1rem;
     margin-bottom: 0;
-    margin-top: 1.2rem;
+  }
+
+  blockquote {
+    text-align: left;
+  }
+
+  article p {
+    margin-top: 1.4rem;
   }
 
   article header p {
@@ -125,36 +141,69 @@ blockquote {
     margin-bottom: 1.4rem;
   }
 
-  article p {
-    margin-top: 1.4rem;
+  article ol {
+    padding-left: 0;
   }
 }
 
 @media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  blockquote {
+    text-align: left;
+  }
+
+  article p {
+    margin-top: 1.5rem;
+  }
+
+  article header p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    padding-left: 0;
+  }
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+    padding: 1.5rem;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  blockquote {
+    text-align: left;
+  }
+
+  article p {
+    margin-top: 1.5rem;
+  }
+
+  article header p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    padding-left: 0;
+  }
 }
-
-
-
-
-
-
-
-Fork this repository.
-Add the correct responsive typography properties to the content of this website.
-Only the following properties need to be added:
-margin
-padding
-font
-font-size
-line-height
-DO NOT change the HTML.
-Some of the CSS is already complete.
-Run it through Markbot and make sure it passes all the checks.
-
-
-ypefaces: Crimson Text
-Standard media query widths: 38em, 60em, 90em
-For the best vertical rhythm: remove the top margins from things & add bottom margins equal to the line-height.
