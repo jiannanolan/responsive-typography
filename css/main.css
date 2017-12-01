@@ -30,6 +30,10 @@ article header {
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin-top: 1.5rem;
+}
+
 article header p {
   font-style: italic;
 }
@@ -52,15 +56,12 @@ body {
   margin: 0;
 }
 
-article p {
-  margin-top: 1.5rem;
-}
-
 article ol {
   padding-left: 0;
 }
 
 @media only screen and (min-width: 20em) {
+
   html {
     font-family: "Crimson Text", serif;
     font-size: 100%;
